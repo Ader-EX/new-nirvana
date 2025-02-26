@@ -1,0 +1,29 @@
+{
+  "home": {
+    "jumbotron": {
+      "title": "Where Quality Meets its Standard",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+      "buttonText": "Discover More"
+    },
+    "about": {
+      "subtitle": "Tentang Kami",
+      "title": "Tentang PT. Nirvana Niaga Sejahtera",
+      "short": "Nirvana Niaga Sejahtera is one of the professional seafood processing companies in Indonesia.",
+      "long": "An honor for us to introduce PT. Nirvana Niaga Sejahtera is one of the professional seafood processing companies in Indonesia. To stay in the forefront line of the dynamic global fisheries market, we are committed to doing our best to ensure the proper and good processing techniques to produce quality seafood products.",
+      "feature1": "Growing fruits vegetables",
+      "feature2": "Tips for ripening your fruits",
+      "checkpoint": "Making this the first true generator on the internet.",
+      "readMore": "Read More"
+    },
+    "faculties": {
+      "heading": "Fakultas dan Program Studi",
+      "button": "Selengkapnya"
+    },
+    "news": {
+      "heading": "Berita Terkini"
+    },
+    "testimonials": {
+      "heading": "Testimoni dari para Mahasiswa"
+    }
+  }
+}

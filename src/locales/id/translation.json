@@ -1,0 +1,29 @@
+{
+  "home": {
+    "jumbotron": {
+      "title": "Di Mana Kualitas Bertemu Standarnya",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+      "buttonText": "Temukan Lebih Banyak"
+    },
+    "about": {
+      "subtitle": "Tentang Kami",
+      "title": "Tentang PT. Nirvana Niaga Sejahtera",
+      "short": "Nirvana Niaga Sejahtera adalah salah satu perusahaan pengolahan makanan laut profesional di Indonesia.",
+      "long": "Merupakan suatu kehormatan bagi kami untuk memperkenalkan PT. Nirvana Niaga Sejahtera sebagai salah satu perusahaan pengolahan makanan laut profesional di Indonesia. Untuk tetap berada di garis depan pasar perikanan global yang dinamis, kami berkomitmen untuk melakukan yang terbaik guna memastikan teknik pengolahan yang tepat dan baik dalam menghasilkan produk makanan laut berkualitas.",
+      "feature1": "Menanam buah dan sayuran",
+      "feature2": "Tips untuk mematangkan buah Anda",
+      "checkpoint": "Menjadikan ini sebagai generator sejati pertama di internet.",
+      "readMore": "Baca Selengkapnya"
+    },
+    "faculties": {
+      "heading": "Fakultas dan Program Studi",
+      "button": "Selengkapnya"
+    },
+    "news": {
+      "heading": "Berita Terkini"
+    },
+    "testimonials": {
+      "heading": "Testimoni dari para Mahasiswa"
+    }
+  }
+}
