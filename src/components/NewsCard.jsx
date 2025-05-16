@@ -25,8 +25,8 @@ export const NewsCard = ({ id, title, description, date, image }) => (
       <div className="mt-auto">
         <div className="text-sm text-gray-500 mb-2">{date}</div>
         <a
-          href={`/berita/${id}`}
-          className="text-[#3A55B4] hover:text-primary-hover font-semibold flex items-center gap-x-1"
+          href={`/product/${id}`}
+          className="text-[#3A55B4] hover:font-bold font-semibold flex items-center gap-x-1"
         >
           Selengkapnya{" "}
           <svg
@@ -83,7 +83,7 @@ export const NewsCardGrid = ({
             previousLabel="<"
             containerClassName="pagination flex font-semibold "
             pageClassName="px-4 py-2 border  rounded hover:bg-gray-200"
-            activeClassName="bg-primary-base text-white"
+            activeClassName="bg-[#3A55B4] text-white"
             previousClassName="px-3 py-2 border  rounded hover:bg-gray-200"
             nextClassName="px-3 py-2 border rounded hover:bg-gray-200"
           />

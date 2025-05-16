@@ -1,29 +1,182 @@
 {
+  "products": {
+    "bakso": {
+      "title": "Bakso Ikan Tuna 250gr Frozen Food Halal dan Sehat",
+      "description": "Bakso ikan tuna kualitas premium, beku dan bersertifikat HALAL + BPOM MD. 1 bungkus berisi 18 biji (250 gram)."
+    },
+    "lumpia": {
+      "title": "Lumpia Ikan Tuna 250gr Frozen Food Halal dan Sehat",
+      "description": "Lumpia ikan tuna premium. 6 biji per bungkus (250 gram). Bersertifikat HALAL & BPOM."
+    },
+    "nugget": {
+      "title": "Nugget Ikan Tuna 250gr Frozen Food Halal dan Sehat",
+      "description": "Nugget ikan tuna lezat dari daging ikan berkualitas. 12 biji per bungkus (250 gram)."
+    },
+    "dimsum": {
+      "title": "Dimsum Ikan Tuna 250gr Frozen Food Halal dan Sehat",
+      "description": "Dimsum ikan tuna beku. 11 biji per bungkus (250 gram). Bersertifikat HALAL & BPOM."
+    },
+    "panada": {
+      "title": "Panada Ikan Tuna 250gr Frozen Food Halal dan Sehat",
+      "description": "Roti goreng isi ikan tuna premium. 10 biji per bungkus (250 gram)."
+    },
+    "pempek": {
+      "title": "Pempek Tuna (Kapsel & Lenjer) 250gr Frozen Food Halal dan Sehat",
+      "description": "Pempek khas Sumatera Selatan (lenjer & kapsel) dari ikan tuna. 4–6 biji per bungkus (250 gram)."
+    },
+    "abon": {
+      "title": "Abon Ikan Tuna 125gr Halal dan Sehat",
+      "description": "Abon ikan tuna dari daging ikan segar. 125 gram. Bersertifikat HALAL & BPOM."
+    },
+    "kakinaga": {
+      "title": "Kaki Naga Ikan Tuna 250gr Frozen Food Halal dan Sehat",
+      "description": "Cemilan kaki naga dari ikan tuna. 14 biji per bungkus (250 gram)."
+    },
+    "slicepacks": {
+      "title": "Slice Packs Tuna Frozen (10g/12g/15g)",
+      "description": "Slice pack tuna ukuran 10g, 12g, 15g. Beku, vakum, kualitas ekspor."
+    },
+    "other": {
+      "title": "Produk Lainnya (Gurita, Uni, dll)",
+      "description": "Produk seafood custom: gurita, gurita rebus, uni. Kualitas ekspor & bersertifikasi HACCP."
+    }
+  },
+  "navbar": {
+    "home": "Beranda",
+    "about": "Tentang Kami",
+    "aboutPage": "Tentang Kami",
+    "visionMission": "Visi & Misi",
+    "products": "Produk",
+    "processed": "Produk Olahan",
+    "raw": "Produk Mentah",
+    "testimonials": "Testimoni",
+    "contacts": "Kontak"
+  },
   "home": {
     "jumbotron": {
-      "title": "Di Mana Kualitas Bertemu Standarnya",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
-      "buttonText": "Temukan Lebih Banyak"
+      "slide1": {
+        "welcomeText": "JELAJAHI PT. NIRVANA NIAGA SEJAHTERA",
+        "title": "Temukan Keunggulan Kami",
+        "description": "Saksikan langsung proses penangkapan, pengolahan, hingga distribusi produk berkualitas tinggi dengan standar dan sertifikasi internasional.",
+        "buttonText": "Lihat Galeri"
+      },
+
+      "slide2": {
+        "welcomeText": "PENGOLAHAN MAKANAN PREMIUM",
+        "title": "Keunggulan Kontrol Kualitas",
+        "description": "Fasilitas mutakhir kami memastikan setiap produk memenuhi standar kualitas dan keamanan tertinggi. Rasakan perbedaan yang dibuat oleh presisi.",
+        "buttonText": "Proses Kami"
+      },
+      "slide3": {
+        "welcomeText": "MELAYANI PASAR GLOBAL",
+        "title": "Standar Internasional",
+        "description": "Dengan sertifikasi dan kepatuhan di berbagai negara, kami memberikan keunggulan yang melampaui batas dan memenuhi harapan global.",
+        "buttonText": "Pelajari Lebih Lanjut"
+      }
+    },
+    "contactUs": {
+      "bannerAlt": "Banner Kontak",
+      "locationTitle": "Lokasi Kami",
+      "locationHeading": "Di Mana Kami Berada",
+      "mapTitle": "Lokasi PT. Nirvana Niaga Sejahtera",
+      "infoTitle": "Informasi Kami",
+      "infoHeading": "Siapa Kami",
+      "assistTitle": "Kami selalu senang membantu Anda",
+      "phoneTitle": "Nomor Telepon",
+      "emailTitle": "Alamat Email",
+      "locationAddressTitle": "Lokasi",
+      "assistanceHours": "Jam Bantuan:",
+      "assistanceDays": "Senin - Jumat 6 pagi hingga 8 malam EST"
+    },
+    "visimisi": {
+      "visi-judul": "Visi",
+      "misi-judul": "Misi",
+
+      "visi": "Menjadi perusahaan terkemuka di bidang industri pengolahan perikanan yang berkelanjutan, inovatif, dan berdaya saing global, serta berkontribusi pada kesejahteraan masyarakat dan kelestarian sumber daya laut.",
+      "misi1": "Menghasilkan produk perikanan yang berkualitas tinggi dan higienis.",
+      "misi2": "Menjadi pelopor makanan sehat berbahan dasar ikan.",
+      "misi3": "Memperluas lapangan kerja untuk kesejahteraan masyarakat.",
+      "misi4": "Mengekspor hasil produksi ke mancanegara dan membantu Kementerian Kelautan dan Perikanan dalam program ‘Ekonomi Biru, Indonesia Maju’."
     },
     "about": {
       "subtitle": "Tentang Kami",
       "title": "Tentang PT. Nirvana Niaga Sejahtera",
       "short": "Nirvana Niaga Sejahtera adalah salah satu perusahaan pengolahan makanan laut profesional di Indonesia.",
       "long": "Merupakan suatu kehormatan bagi kami untuk memperkenalkan PT. Nirvana Niaga Sejahtera sebagai salah satu perusahaan pengolahan makanan laut profesional di Indonesia. Untuk tetap berada di garis depan pasar perikanan global yang dinamis, kami berkomitmen untuk melakukan yang terbaik guna memastikan teknik pengolahan yang tepat dan baik dalam menghasilkan produk makanan laut berkualitas.",
-      "feature1": "Menanam buah dan sayuran",
-      "feature2": "Tips untuk mematangkan buah Anda",
-      "checkpoint": "Menjadikan ini sebagai generator sejati pertama di internet.",
+      "feature1": "Menjual Produk Berkualitas",
+      "feature2": "100% Kepuasan Dijamin",
+      "checkpoint": "3 Tahun Layanan Tanpa Henti",
       "readMore": "Baca Selengkapnya"
     },
-    "faculties": {
-      "heading": "Fakultas dan Program Studi",
-      "button": "Selengkapnya"
+    "services": {
+      "heading": "Layanan Kami",
+      "sub_heading": "Apa yang Kami Sediakan",
+      "slicing": "Pemotongan",
+      "vacuumSlice": "Vakum",
+      "trimming": "Pemangkasan",
+      "skinless": "Tanpa Kulit",
+      "stat1": "Kontainer diekspor setiap bulan",
+      "stat2": "Bulan dalam setahun pengiriman tanpa henti",
+      "stat3": "Total Kontainer Diekspor dalam 7 Tahun"
+    },
+    "products": {
+      "heading": "Produk Kami"
     },
     "news": {
       "heading": "Berita Terkini"
     },
     "testimonials": {
-      "heading": "Testimoni dari para Mahasiswa"
+      "heading": "Testimoni dari Klien",
+      "sub_heading": "Apa Kata Mereka Tentang Kami"
     }
+  },
+  "Testimoni": {
+    "heading": "Testimoni dari Klien",
+    "sub_heading": "Apa Kata Klien Kami",
+    "desc": "Bekerjasama dengan Nirvana Niaga Sejahtera telah menjadi titik balik bagi bisnis kami. Tim mereka profesional, berdedikasi, dan sangat terampil dalam memberikan solusi yang disesuaikan dengan kebutuhan kami. Layanan pelanggan mereka yang luar biasa dan keahlian dalam industri ini menjadikan mereka mitra yang tak ternilai. Kami sangat merekomendasikan layanan mereka kepada siapa saja yang ingin membawa bisnis mereka ke level berikutnya.",
+    "banner_p": "Kepercayaan Anda, Komitmen Kami",
+    "banner_h1": "Kisah Nyata, Kepuasan Nyata dari Klien Kami"
+  },
+  "aboutus": {
+    "about_1": {
+      "title": "Siapa Kami?",
+      "description_1": "Merupakan kehormatan bagi kami untuk memperkenalkan PT. Nirvana Niaga Sejahtera, salah satu perusahaan pengolahan hasil laut profesional di Indonesia. Untuk tetap berada di garis depan pasar perikanan global yang dinamis, kami berkomitmen memastikan teknik pengolahan yang tepat dan berkualitas tinggi guna menghadirkan produk seafood berkualitas.",
+      "description_2": "Didirikan pada tahun 2017 di Kawasan Industri Makassar, Sulawesi Selatan, Indonesia, perusahaan kami mengkhususkan diri dalam pengelolaan ikan segar dan beku. Kami menawarkan berbagai jenis ikan dari perairan Indonesia, tersedia dalam berbagai potongan dan ukuran sesuai dengan kebutuhan pelanggan kami."
+    },
+    "about_2": {
+      "title": "Produksi & Teknologi Kami",
+      "description_1": "Untuk menjamin kualitas premium, PT. Nirvana Niaga Sejahtera:",
+      "description_2": [
+        "Memilih hanya ikan berkualitas terbaik dari perairan Indonesia.",
+        "Mengolah ikan dengan peralatan modern demi kesegaran dan kebersihan.",
+        "Mempekerjakan tenaga profesional berpengalaman untuk produksi standar tinggi."
+      ],
+      "description_3": "Dengan fasilitas canggih dan kontrol kualitas yang ketat, kami menghasilkan seafood segar dan beku yang higienis, sehat, serta aman dikonsumsi untuk pasar lokal maupun internasional."
+    },
+    "about_3": {
+      "title": "Nilai & Komitmen Kami",
+      "description_1": "Di PT. Nirvana Niaga Sejahtera, kami bekerja dengan semangat kerja sama tim, secara profesional dan berdedikasi dari proses penangkapan hingga pengolahan.",
+      "description_2": "Kami berkomitmen kuat untuk:",
+      "description_3": [
+        "Menjaga keberlanjutan perikanan dan ekosistem laut.",
+        "Mengikuti prosedur penangkapan ikan yang etis dan sesuai standar.",
+        "Menjamin kebersihan, keamanan, dan kualitas dalam setiap proses."
+      ],
+      "description_4": "Dengan mematuhi standar industri yang ketat, kami memastikan bahwa setiap produk yang kami hasilkan memenuhi ekspektasi kualitas tertinggi."
+    },
+    "about_4": {
+      "title": "Pertumbuhan Berkelanjutan & Standar Global",
+      "description_1": "Kami mengucapkan terima kasih yang sebesar-besarnya kepada seluruh pelanggan setia yang telah mempercayai kami sebagai pemasok seafood premium mereka. Dukungan Anda mendorong kami untuk:",
+      "description_2": [
+        "Terus meningkatkan kualitas layanan dan produk.",
+        "Berkontribusi positif pada sektor perikanan Indonesia.",
+        "Memastikan kepatuhan terhadap standar seafood nasional dan internasional."
+      ],
+      "description_3": "Di era globalisasi, kami berupaya untuk tetap menjadi salah satu perusahaan pengolahan hasil laut yang paling dicari dengan menerapkan program manajemen perikanan yang maju, mencakup proses penangkapan, persiapan, penyimpanan, dan pengolahan.",
+      "description_4": "Melalui sinergi antara tenaga profesional berpengalaman dan teknologi mutakhir, PT. Nirvana Niaga Sejahtera berkomitmen untuk menghadirkan produk seafood berkualitas terbaik bagi dunia."
+    }
+  },
+  "footer": {
+    "about": "PT. Nirvana Niaga Sejahtera adalah perusahaan pengolahan makanan laut profesional di Indonesia, berkomitmen menghadirkan produk berkualitas melalui teknik pengolahan terbaik untuk pasar global."
   }
 }

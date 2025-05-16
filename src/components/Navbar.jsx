@@ -11,7 +11,7 @@ import idFlag from "../assets/id.svg";
 import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeParentDropdown, setActiveParentDropdown] = useState(null);
   const [activeChildDropdown, setActiveChildDropdown] = useState(null);
@@ -22,8 +22,8 @@ const Navbar = () => {
   };
 
   const handleParentDropdownToggle = (key) => {
-    setActiveParentDropdown((prev) => (prev === key ? null : key)); // Only one parent open at a time
-    setActiveChildDropdown(null); // Reset child dropdowns when switching parent
+    setActiveParentDropdown((prev) => (prev === key ? null : key));
+    setActiveChildDropdown(null);
   };
 
   const handleChildDropdownToggle = (key) => {
@@ -32,29 +32,29 @@ const Navbar = () => {
 
   const menuItems = [
     {
-      name: "Home",
+      name: t("navbar.home"),
       href: "/",
     },
     {
-      name: "About Us",
+      name: t("navbar.about"),
       children: [
-        { name: "About Us", href: "/about" },
-        { name: "Visi & Misi", href: "/visi-misi" },
+        { name: t("navbar.aboutPage"), href: "/about" },
+        { name: t("navbar.visionMission"), href: "/visi-misi" },
       ],
     },
     {
-      name: "Products",
+      name: t("navbar.products"),
       children: [
-        { name: "Produk Jadi", href: "/produk-jadi" },
-        { name: "Produk Mentah", href: "/produk-mentah" },
+        { name: t("navbar.processed"), href: "/produk-olahan" },
+        { name: t("navbar.raw"), href: "/produk-mentah" },
       ],
     },
     {
-      name: "Testimoni",
+      name: t("navbar.testimonials"),
       href: "/testimoni",
     },
     {
-      name: "Contacts",
+      name: t("navbar.contacts"),
       href: "/contact",
     },
   ];
@@ -183,18 +183,19 @@ const Navbar = () => {
   return (
     <>
       <nav className="bg-white border-gray-200 shadow-md fixed top-0 w-full z-50">
-        <div className="bg-[#3A55B4] flex gap-x-6 w-full justify-end py-4 px-4  text-white text-xs font-extralight">
-          <section className="flex gap-1">
+        <div className="bg-[#3A55B4] w-full py-4 px-4 text-white text-xs font-extralight flex flex-wrap justify-start gap-y-2 sm:gap-y-0 sm:gap-x-6">
+          <section className="flex gap-1 items-center">
             <RiPhoneFill className="self-center" />
-            <p>Info : +62 123 456 78 </p>
+            <a href="https://wa.me/6282188878801" target="_blank">
+              Info : 082188878801{" "}
+            </a>
           </section>
-          <section className="flex gap-1">
+          <section className="flex gap-1 items-center">
             <RiMailFill className="self-center" />
-            <p>info-admin@gmail.ac.id</p>
+            <p>official@nirvananiagasejahtera.co.id</p>
           </section>
-          <h1>||</h1>
-
-          <div className="relative">
+          <div className="hidden sm:block">||</div>{" "}
+          <div className="relative z-50">
             <button
               onClick={() => setIsLangDropdownOpen((prev) => !prev)}
               className="flex items-center gap-1 hover:text-gray-300"

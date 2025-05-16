@@ -1,29 +1,187 @@
 {
+  "products": {
+    "bakso": {
+      "title": "Tuna Fish Meatballs 250g Frozen Food Halal and Healthy",
+      "description": "Premium quality tuna fishballs, frozen and HALAL + BPOM certified. 18 pieces per pack (250g)."
+    },
+    "lumpia": {
+      "title": "Tuna Spring Rolls 250g Frozen Food Halal and Healthy",
+      "description": "Premium tuna spring rolls. 6 pieces per pack (250g). HALAL & BPOM certified."
+    },
+    "nugget": {
+      "title": "Tuna Fish Nuggets 250g Frozen Food Halal and Healthy",
+      "description": "Delicious tuna fish nuggets made from premium fish meat. 12 pieces per pack (250g)."
+    },
+    "dimsum": {
+      "title": "Tuna Dimsum 250g Frozen Food Halal and Healthy",
+      "description": "Frozen tuna dimsum. 11 pieces per pack (250g). HALAL & BPOM certified."
+    },
+    "panada": {
+      "title": "Panada Tuna 250g Frozen Food Halal and Healthy",
+      "description": "Fried bread filled with premium tuna. 10 pieces per pack (250g)."
+    },
+    "pempek": {
+      "title": "Pempek Tuna (Kapsel & Lenjer) 250g Frozen Food Halal and Healthy",
+      "description": "Traditional South Sumatran pempek (lenjer & kapsel) made from tuna. 4–6 pieces per pack (250g)."
+    },
+    "abon": {
+      "title": "Tuna Floss 125g Halal and Healthy",
+      "description": "Tuna floss made from fresh fish meat. 125g. HALAL & BPOM certified."
+    },
+    "kakinaga": {
+      "title": "Tuna Fish Dragon Feet 250g Frozen Food Halal and Healthy",
+      "description": "Tuna fish dragon feet snack. 14 pieces per pack (250g)."
+    },
+    "slicepacks": {
+      "title": "Tuna Slice Packs (10g/12g/15g) Frozen Export Quality",
+      "description": "Frozen tuna slice packs in 10g, 12g, and 15g sizes. Vacuum-packed for export quality."
+    },
+    "other": {
+      "title": "Other Products (Octopus, Uni, etc.)",
+      "description": "Custom seafood products: octopus, boiled octopus, uni. Export quality & HACCP certified."
+    }
+  },
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "aboutPage": "About Us",
+    "visionMission": "Vision & Mission",
+    "products": "Products",
+    "processed": "Processed Products",
+    "raw": "Raw Products",
+    "testimonials": "Testimonials",
+    "contacts": "Contacts"
+  },
   "home": {
     "jumbotron": {
-      "title": "Where Quality Meets its Standard",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
-      "buttonText": "Discover More"
+      "slide1": {
+        "welcomeText": "EXPLORE PT. NIRVANA NIAGA SEJAHTERA",
+        "title": "Discover What We Do Best",
+        "description": "See firsthand our meticulous process—from catching and processing to delivering certified quality products across global markets.",
+        "buttonText": "View Galleries"
+      },
+
+      "slide2": {
+        "welcomeText": "PREMIUM FOOD PROCESSING",
+        "title": "Excellence in Quality Control",
+        "description": "Our state-of-the-art facilities ensure every product meets the highest standards of quality and safety. Experience the difference precision makes.",
+        "buttonText": "Our Process"
+      },
+      "slide3": {
+        "welcomeText": "SERVING THE GLOBAL MARKET",
+        "title": "International Standards",
+        "description": "With certifications and compliance across various countries, we deliver excellence that transcends borders and meets global expectations.",
+        "buttonText": "Learn More"
+      }
     },
+
+    "contactUs": {
+      "bannerAlt": "Banner Contact",
+      "locationTitle": "Our Location",
+      "locationHeading": "Where We're Located",
+      "mapTitle": "PT. Nirvana Niaga Sejahtera location",
+      "infoTitle": "Our Infos",
+      "infoHeading": "Who We Are",
+      "assistTitle": "We are always happy to assist you",
+      "phoneTitle": "Phone Number",
+      "emailTitle": "Email Address",
+      "locationAddressTitle": "Location",
+      "assistanceHours": "Assistance hours:",
+      "assistanceDays": "Monday - Friday 6 am to 8 pm EST"
+    },
+    "visimisi": {
+      "visi-judul": "Vision",
+      "misi-judul": "Mission",
+      "visi": "To become a leading company in the sustainable, innovative, and globally competitive fisheries processing industry, while contributing to the welfare of society and the preservation of marine resources.",
+      "misi1": "To produce high-quality and hygienic fishery products.",
+      "misi2": "To pioneer healthy fish-based foods.",
+      "misi3": "To expand employment opportunities for the welfare of society.",
+      "misi4": "To export production results overseas and assist the Ministry of Maritime Affairs and Fisheries in the 'Blue Economy, Advanced Indonesia' program."
+    },
+
     "about": {
-      "subtitle": "Tentang Kami",
-      "title": "Tentang PT. Nirvana Niaga Sejahtera",
+      "subtitle": "About Us",
+      "title": "About PT. Nirvana Niaga Sejahtera",
       "short": "Nirvana Niaga Sejahtera is one of the professional seafood processing companies in Indonesia.",
       "long": "An honor for us to introduce PT. Nirvana Niaga Sejahtera is one of the professional seafood processing companies in Indonesia. To stay in the forefront line of the dynamic global fisheries market, we are committed to doing our best to ensure the proper and good processing techniques to produce quality seafood products.",
-      "feature1": "Growing fruits vegetables",
-      "feature2": "Tips for ripening your fruits",
-      "checkpoint": "Making this the first true generator on the internet.",
+      "feature1": "Selling Quality Products",
+      "feature2": "100% Satisfaction Guaranteed",
+      "checkpoint": "3 Years of Nonstop Services",
       "readMore": "Read More"
     },
     "faculties": {
       "heading": "Fakultas dan Program Studi",
       "button": "Selengkapnya"
     },
+    "services": {
+      "heading": "Our Services",
+      "sub_heading": "What We Provide",
+      "slicing": "Slicing",
+      "vacuumSlice": "Vacuum Slice",
+      "trimming": "Trimming",
+      "skinless": "Skinless",
+      "stat1": "Container exported each month",
+      "stat2": "Weeks in a year with nonstop deliveries",
+      "stat3": "Total container exported within 7 years"
+    },
+    "products": {
+      "heading": "Our Products"
+    },
     "news": {
       "heading": "Berita Terkini"
     },
     "testimonials": {
-      "heading": "Testimoni dari para Mahasiswa"
+      "heading": "Our Testimonies",
+      "sub_heading": "What They Say About Us"
     }
+  },
+  "Testimoni": {
+    "heading": "Testimoni from Clients",
+    "sub_heading": "What Our Client Says",
+    "desc": "Working with Nirvana Niaga Sejahtera has been a game-changer for our business. The team is professional, dedicated, and highly skilled at delivering solutions that are tailored to our needs. Their exceptional customer service and expertise in the industry make them an invaluable partner. We highly recommend their services to anyone looking to take their business to the next level.",
+    "banner_p": "Your Trust, Our Commitment",
+    "banner_h1": "Real Stories, Real Satisfaction from Our Clients"
+  },
+  "aboutus": {
+    "about_1": {
+      "title": "Who We Are?",
+      "description_1": "An honor for us to introduce PT. Nirvana Niaga Sejahtera, one of the professional seafood processing companies in Indonesia. To stay at the forefront of the dynamic global fisheries market, we are committed to ensuring proper and high-standard processing techniques to deliver quality seafood products.",
+      "description_2": "Founded in 2017 in Kawasan Industri Makassar, South Sulawesi, Indonesia, our company specializes in the management of fresh and frozen fish. We offer a wide variety of fish from Indonesian seawater, available in various cut types and sizes to meet our customers’ needs."
+    },
+    "about_2": {
+      "title": "Our Production & Technology",
+      "description_1": "To guarantee premium quality, PT.Nirvana Niaga Sejahtera:",
+      "description_2": [
+        "Selects only the best-quality fish from Indonesian waters.",
+        "Processes fish with modern equipment for freshness and hygiene.",
+        "Employs experienced professionals for high-standard production."
+      ],
+      "description_3": "With a cutting-edge facility and strict quality control, we produce hygienic, healthy, and safe-to-consume fresh and frozen seafood for both local and international markets."
+    },
+    "about_3": {
+      "title": "Our Values & Commitment",
+      "description_1": "At PT. Nirvana Niaga Sejahtera, we operate with a teamwork spirit, working professionally and with dedication from fishing to processing.",
+      "description_2": "We are strongly committed to:",
+      "description_3": [
+        "Maintaining sustainable fisheries and marine ecosystems.",
+        "Following ethical and proper fishing procedures.",
+        "Ensuring hygiene, safety, and quality in every process."
+      ],
+      "description_4": "By adhering to strict industry standards, we ensure that every product we deliver meets the highest quality expectations."
+    },
+    "about_4": {
+      "title": "Continuous Growth & Global Standards",
+      "description_1": "We extend our deepest gratitude to all loyal customers who trust us as their premium seafood supplier. Your support drives us to:",
+      "description_2": [
+        "Continuously improve service and product quality.",
+        "Contribute positively to Indonesia’s fisheries sector.",
+        "Ensure compliance with national and international seafood standards."
+      ],
+      "description_3": "In the era of globalization, we strive to remain one of the most sought-after seafood processing companies by implementing advanced fishery management programs that cover catching, preparing, storing, and processing.",
+      "description_4": "Through the synergy of experienced professionals and cutting-edge technology, PT. Nirvana Niaga Sejahtera is committed to delivering the highest-quality seafood products to the world."
+    }
+  },
+  "footer": {
+    "about": "PT. Nirvana Niaga Sejahtera is a professional seafood processing company in Indonesia, committed to delivering high-quality products through the best processing techniques for the global market."
   }
 }
